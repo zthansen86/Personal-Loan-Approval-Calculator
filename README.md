@@ -10,7 +10,7 @@ In the financial industry, credit card scores are commonly used for risk assesme
 
 # CSVs
 ### CVS Used
-1. [loan_data.csv]([https://github.com/zthansen86/Project-4/blob/main/Resources/application_record.csv](https://github.com/zthansen86/Project-4/blob/main/loan_data.csv)
+1. [loan_data.csv](https://github.com/zthansen86/Project-4/blob/main/loan_data.csv)
 ### CSV Exported
-3. [Main_Doc.csv]([https://github.com/zthansen86/Project-4/blob/main/Resources/credit_record.csv](https://github.com/zthansen86/Project-4/blob/main/Main_Doc.csv)
+3. [Main_Doc.csv](https://github.com/zthansen86/Project-4/blob/main/Main_Doc.csv)
 
