@@ -8,10 +8,32 @@ In the financial industry, credit card scores are commonly used for risk assesme
 ### Data Source 
 [Kaggle's Credit Card Approval Prediction Dataset for Machine Learning](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction)
 
-# CSVs
+## CSVs
 #### CVS Used
 1. [loan_data.csv](https://github.com/zthansen86/Project-4/blob/main/loan_data.csv)
 #### CSV Exported
 3. [Main_Doc.csv](https://github.com/zthansen86/Project-4/blob/main/Main_Doc.csv)
 
 ### Data Cleaning 
+* columns null values were removed
+    * ["Loan_ID", "Gender", "Education", "Credit_History", "Property_Area"]
+* columns were split into quantitative and categorical
+* non-numeric data, 'Loan_Status' was converted to numeric of 0 or 1.
+* X data set was created by drop its label
+* dataset was scaled
+### Data ML Model
+* data was split trained and tested
+* 1) logistic regression 
+    * dataset was fitted 
+    ### Scores
+      * Training Data Score: 0.7219917012448133
+      * Testing Data Score: 0.6652892561983471
+* 2) DecisionTreeClassifier
+    * also fitted
+    * confusion_matrix
+* 3) RandomForestClassifier
+    * also fitted/scaled
+    * classification report
+    * confusion_matrix
+* Correlation heat map
+* Plotting of trainning and testing data
