@@ -1,0 +1,57 @@
+  
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loan Qualifications Predictor</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    </head>
+    
+    <body>
+        <div class="login">
+           <h1>Personal Loan Approval Forecasting</h1>
+           <p>Use the interactive chart below to explore your qualifications.</p>
+                
+            <div class="container">
+                <br>
+            <form action="/predict" method="POST" class="form">
+                <div class="fieldset">
+                    <label>Marital Status. Enter: 1 for "Yes", 0 for "No"</label>
+                    <input class="exp" name="Married"/>
+                </div>
+                <br>
+                <div class="fieldset">
+                    <label>Enter Number of Dependents: 1/2/3/4...</label>
+                    <input class="exp" name="Dependents"/>
+                </div>
+                <br>
+                <div class="fieldset">
+                    <label>Are you Self Employed? Enter: 1 for "Yes", 0 for "No"</label>
+                    <input class="exp" name="Self_Employed"/>
+                </div>
+                <br>
+                <div class="fieldset">
+                    <label>Enter Applicant Monthly Income: Exp: 5000</label>
+                    <input class="exp" name="ApplicantIncome"/>
+                </div>
+                <br>
+                <div class="fieldset">
+                    <label>Enter Coapplicant Monthly Income: Exp: 5000</label>
+                    <input class="exp" name="CoapplicantIncome"/>
+                </div>
+                <br>
+                <div class="fieldset">
+                    <label>Enter Loan Amount: Exp: 100</label>
+                    <input class="exp" name="LoanAmount"/>
+                </div>
+                <br>
+                <div class="fieldset">
+                    <label>Enter Loan Amount Term in Days: Exp: 360</label>
+                    <input class="exp" name="Loan_Amount_Term"/>
+                </div>
+
+                <input type="submit" class="button" value="Predict">
+                <br>
+            </form>
+        </div>  
+    </body>
+</html>
