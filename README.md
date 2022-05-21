@@ -37,3 +37,5 @@ In the financial industry, credit card scores are commonly used for risk assesme
     * confusion_matrix
 * Correlation heat map
 * Plotting of trainning and testing data
+
+Presentation: https://docs.google.com/presentation/d/1rY4BF-SAj9msDPIQxVRDQ5mH76-0-ZXXoaN7_1-oM6U/edit?usp=sharing 
