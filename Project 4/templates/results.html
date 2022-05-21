@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <style>
+            .container {
+
+position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -150px;
+    width: 400px;
+    height: 400px;
+   
+}
+.button {
+    margin-left: -80px;
+}
+        </style>
+        <header>
+        <div class="login">
+            <h1>Are You Qualified?</h1>
+        </header>
+
+	
+    
+            <div class="container">
+               
+                <div class="fieldset">
+                    <p style="margin:0px;"><b>Results</b></p>
+                   <h1>{{ output }}%</h1>
+                </div>
+                <form action="/" class="form">
+                    <input type="submit" class="button" value="Go Back">
+                    <br>
+                </form>
+                    
+            </div>
+
+    </div>
+	
+	
+
+</body>

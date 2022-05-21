@@ -1,0 +1,104 @@
+html {
+	height: 100%;
+	background: #2d545e;
+	background: radial-gradient(circle, #067e9c 20%, #2d545e);
+	background-size: cover;
+}
+.body { 
+	width: 100%;
+	min-height: 100% !important;
+    margin: 0 !important;
+	background: #2d545e;
+    background-size: cover !important;
+
+}
+.login { 
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	width:400px;
+	height:400px;
+}
+
+.container {
+    position: absolute !important;
+    margin-left: -200px;
+    display: grid;
+    grid-template-columns: column;
+    align-content: center;
+    justify-content: center;
+    font-family: monospace;
+    
+}
+
+.login h1 { color: #e1b382;
+    font-size: 75px;
+    font-weight: bold; 
+    text-shadow: 0 0 10px rgba(0,0,0,0.3); 
+    letter-spacing:1px; 
+    text-align:center;
+    display: block; 
+}
+
+p { 
+    color: white; 
+    font-size: 25px;
+    text-align:center;
+     
+}
+.exp {
+    width: 95%;
+    margin:0 auto;
+    height: 50px;
+    margin: 15px;
+    border:none;
+    font-size: 30px;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+.button {
+    margin-top: 10px;
+	margin-bottom: 15px;
+    font-size: 24px;
+    color: white;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    justify-self: center;
+    white-space: nowrap;
+    background: linear-gradient(104.74deg, #01232b 0%,#39c8e8 100%);
+    border-radius: 30px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 16px 60px;
+    outline: none;
+    width: 100%;
+    transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.2) 0s;
+}
+.button:hover {
+    opacity:0.5;
+}
+
+.fieldset {
+    border-radius: 30px;
+    padding: 10px;
+    margin: 0px;
+    background-color:#013b48;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+.form {
+    width: 500px;
+    height: 500px;
+    margin-left:150px;
+}
