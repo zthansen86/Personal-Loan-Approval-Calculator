@@ -3,10 +3,10 @@
 
 ## Background
 #### Personal Loan Approval Prediction for Machine Learning 
-In the financial industry, credit card scores are commonly used for risk assesment. Using [loan_data.csv](https://github.com/zthansen86/Project-4/blob/main/loan_data.csv) the probability of future defaults and borrowing pattens can be reasonably using supervised machine learning algorithms such as logistic regression and random forest classifier.  
+In the financial industry, personal loan approvals are standard. Using [loan_data.csv](https://github.com/zthansen86/Project-4/blob/main/loan_data.csv) the probability of future defaults and borrowing pattens can be reasonably using supervised machine learning algorithms such as logistic regression and random forest classifier.  
 
 ### Data Source 
-[Kaggle's Credit Card Approval Prediction Dataset for Machine Learning](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction)
+[Kaggle's Personal Loan Approval Prediction Dataset for Machine Learning](https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction)
 
 ## CSVs
 #### CVS Used
@@ -39,3 +39,4 @@ In the financial industry, credit card scores are commonly used for risk assesme
 * Plotting of trainning and testing data
 
 Presentation: https://docs.google.com/presentation/d/1rY4BF-SAj9msDPIQxVRDQ5mH76-0-ZXXoaN7_1-oM6U/edit?usp=sharing 
+Heroku Depoloyment: https://loan-prediction-app-project.herokuapp.com/predict
